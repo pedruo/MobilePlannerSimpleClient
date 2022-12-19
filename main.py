@@ -12,9 +12,9 @@ class ExampleApp(QtWidgets.QMainWindow, gui.Ui_MainWindow):
 	def __init__(self, parent=None):
 		super(ExampleApp, self).__init__(parent)
 		self.setupUi(self)
-		self.lineEdit.setText("admin")
+		self.lineEdit.setText("verystrongpasswprd")
 		self.lineEdit_2.setText("7171")
-		self.lineEdit_3.setText("10.200.82.101")
+		self.lineEdit_3.setText("192.168.0.1")
 		self.senha = None
 		self.ip = None
 		self.porta = None
@@ -62,7 +62,7 @@ class ExampleApp(QtWidgets.QMainWindow, gui.Ui_MainWindow):
 				datasplit = data.split()
 				try:
 					if ((datasplit[1][:7]=="DROPOFF") and (datasplit[3]=="20" ) and (datasplit[4]=="Completed")):
-						with open("log19_12.txt", "a") as f:
+						with open("logFileName.txt", "a") as f:
 							f.write(data)
 							f.close()
 				except:
