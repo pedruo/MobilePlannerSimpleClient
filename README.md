@@ -3,9 +3,9 @@
 Simple python script with a simple GUI that connects do mobile planner from OMRON, receives the messages on the screen and allow to send commands.
 Also, stores a log file with all completed jobs.
 
-Python3/ 
+Use Python3, of course. 
 
-Requeres PyQT5
+Requires PyQT5, install it with pip.
 
 Tested on ubuntu and Windows 10.
 
