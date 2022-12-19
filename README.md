@@ -5,7 +5,7 @@ Also, stores a log file with all completed jobs.
 
 Use Python3, of course. 
 
-Requires PyQT5, install it with pip.
+Requires PyQt5, install it with pip.
 
 Tested on ubuntu and Windows 10.
 
