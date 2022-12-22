@@ -1,6 +1,6 @@
 # MobilePlannerSimpleClient
 
-Simple python script with a simple GUI that connects do mobile planner from OMRON, receives the messages on the screen and allow to send commands.
+Simple python script with a simple GUI that connects to mobile planner from OMRON, receives the messages on the screen and allow to send commands.
 Also, stores a log file with all completed jobs.
 
 Use Python3, of course. 
